@@ -3,7 +3,7 @@
 int main() {
 	int w, sum, i = 2, r, ctr = 0;
 	printf("Enter the weight of the watermelon: ");
-	scanf_s("%d", &w);
+	scanf("%d", &w);
 	while (w > ctr) {
 		if (w % i == 0) {
 			r = w / i;
